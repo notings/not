@@ -1,0 +1,912 @@
+#box{
+    width: 100%;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    display: block;
+}
+.right{
+    width: 80px;
+    height: 320px;
+    background: #fff;
+
+    position: fixed;
+    right: 20px;
+    bottom: 200px;
+}
+.right .r1{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.right .r1 p{
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 6px;
+}
+.right .r1 .i1{
+    margin-top: 2px;
+}
+.right .r1 .i2{
+    margin-left: 26px;
+    display: none;
+}
+.right .r1:hover .i1{
+    display: none;
+}
+.right .r1:hover .i2{
+    display:block;
+}
+.right .r1:hover{
+    color: orange;
+}
+
+
+#box .nav{
+    width: 100%;
+    height: 68px;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+}
+#box .nav .nh{
+    text-indent: -999px;
+    display: block;
+    width: 72px;
+    height: 68px;
+    float: left;
+    line-height: 68px;
+    background: url(../images/logo_1.png) no-repeat center center;
+}
+#box .nav .ns{
+    display: block;
+    margin-left: 30px;
+    line-height: 68px;
+    font-size: 12px;
+    color: orange;
+    float: left;
+}
+#box .nav ul{
+    float: right;
+    height: 68px;
+}
+#box .nav ul li{
+    float: left;
+    display: block;
+    width: 90px;
+    line-height: 68px;
+}
+#box .nav ul li a{
+    color: black;
+    display: block;
+}
+#box .nav ul li a:hover{
+    color: orange;
+}
+
+
+.blank{ 
+    clear:both; 
+    overflow:hidden;
+    display:block; 
+}
+
+
+
+
+
+
+
+
+
+#box .banner{
+    width: 100%;
+    height: 350px;
+    background:url(../images/banner.png) center center;
+}
+#box .banner .ba{
+    width: 240px;
+    height: 350px;
+    opacity: 0.6;
+    background: rgb(128, 124, 124);
+} 
+#box .banner .ba .lu{
+    height: 350px;
+    width: 240px;
+    text-align: center;
+    position: relative;
+}
+#box .banner .ba .lu .uli{
+    height: 70px;
+    font-size: 18px;
+    line-height: 70px;
+}
+#box .banner .ba .lu .uli a{
+    color: #fff;
+    display: block;
+}
+#box .banner .ba .lu .uli img{
+    margin-right: 10px;
+}
+#box .banner .ba .lu .uli:hover .u{
+    display: block;
+}
+
+
+#box .banner .ba .lu .uli ul{
+    height: 350px;
+    width: 400px;
+    margin-left: 120px;
+    position: absolute;
+    top:0px;
+    left: 50%;
+    overflow: hidden;
+    display: none;
+    background: rgba(58, 57, 57, 0.9);
+}
+#box .banner .ba .lu .uli ul li{
+    float: left;
+    width: 120px;
+    line-height: 30px;
+    margin-top: 15px;
+    border-right: 1px solid #fff;
+}
+#box .banner .ba .lu .uli ul li a{
+    color: #fff;
+    display: block;
+}
+#box .banner .ba .lu .uli ul li a:hover{
+    color:orange;
+    display: block;
+}
+
+
+
+
+
+
+
+#box .main1{
+    width: 100%;
+    height: 196px;
+}
+#box .main1 .m{
+    width: 200px;
+    height: 196px;
+    float: left;
+    text-align: center;
+}
+#box .main1 .m img{
+    margin-top: 40px;
+    margin-bottom: 18px;
+}
+#box .main1 .m .mp{
+    font-size: 18px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#box .main2{
+    width: 100%;
+    height: 1062px;
+    overflow: hidden;
+}
+#box .main2 .mah{
+    font-size: 28px;
+    line-height: 28px;
+    display: block;
+    float: left;
+}
+#box .main2 .mas{
+    font-size: 14px;
+    line-height: 14px;
+    display: block;
+    float: left;
+    margin-top:15px ;
+    margin-left: 20px;
+}
+#box .main2 .ma{
+    width: 1200px;
+    margin-top: 50px;
+}
+#box .main2 .ma .mal{
+    width: 540px;
+    height: 360px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    background: url(../images/100001190.jpg) center center;
+}
+#box .main2 .ma .mal:hover{
+    background-size: 600px 460px;
+}
+#box .main2 .ma .mal .malp{
+    display: block;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    height: 80px;
+    width: 480px;
+    line-height: 80px;
+    padding: 0px 30px;
+    background: rgb(36, 35, 35,0.5);
+}
+#box .main2 .ma .mac{
+    width: 260px;
+    height: 360px;
+    float: left;
+    margin-right: 10px;
+}
+#box .main2 .ma .mac .mact{
+    width: 260px;
+    height: 175px;
+    position: relative;
+    background: url(../images/9089538.jpg);
+    background-size: 260px 175px;
+}
+#box .main2 .ma .mac .mact:hover{
+    background-size: 300px 200px;
+}
+#box .main2 .ma .mac .mactp{
+    position: absolute;
+    bottom: 0px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    width: 220px;
+    padding: 0px 20px;
+    background:rgb(24, 23, 23,0.5);
+}
+#box .main2 .ma .mac .macf{
+    width: 260px;
+    height: 175px;
+    margin-top: 10px;
+    position: relative;
+    background: url(../images/8842462\ \(1\).jpeg) center center;
+    background-size: 260px 175px;
+}
+#box .main2 .ma .mac .macf:hover{
+    background-size: 300px 200px;
+}
+#box .main2 .ma .mar{
+    width: 380px;
+    height: 360px;
+    float: left;
+    background: url(../images/srhyjt.png);
+}
+
+
+
+#box .main2 .mai{
+    width: 1200px;
+    height: 82px;
+}
+#box .main2 .mai .maiu{
+    float: left;
+    height: 82px;
+    line-height: 82px;
+}
+#box .main2 .mai .maiu li{
+    float: left;
+    width: 110px;
+    font-size: 12px;
+    line-height: 82px;
+}
+#box .main2 .mai a{
+    color: black;
+}
+#box .main2 .mai a:hover{
+    color: orange;
+}
+#box .sa{
+    width: 100px;
+    height: 82px;
+    float: right;
+    display: block;
+    font-size: 12px;
+    line-height: 82px;
+    text-align: center;
+}
+
+#box .main2 .mai2 .mo{
+    width: 570px;
+    height: 160px;
+    float: left;
+    margin-bottom: 30px;
+}
+#box .mai2 .mo:nth-child(2n+1){
+    margin-right: 60px;
+}
+#box .mai2 .mo img{
+    width: 240px;
+    height: 160px;
+    float: left;
+}
+#box .mai2 .mo .mo1{
+    width: 300px;
+    height: 160px;
+    float: right;
+    margin-left: 30px;
+}
+#box .mai2.mo .mo1 h3{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#box .mai2 .mo .mo1 p{
+    margin-bottom: 20px;
+}
+#box .mai2 .mo .mo1 .sp1{
+    font-size: 12px;
+    line-height: 12px;
+    color: #ccc;
+}
+#box .mai2 .mo .mo1 .sp2{
+    font-size: 12px;
+    line-height: 12px;
+    color: #ccc;
+    margin-left: 30px;
+}
+#box .mai2 .mo .mo1 .pp{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+#box .main3{
+    width: 100%;
+    height: 670px;
+    background:#f8f8f8;
+}
+#box .main3 .ma3{
+    height: 82px;
+    width: 1200px;
+}
+#box .main3 .ma3 .ma4h{
+    display:block;
+    width: 330px;
+    height: 82px;
+    float: left;
+    color: black;
+}
+#box .main3 .ma3 .sp4h{
+    font-size: 26px;
+    line-height: 82px;
+    display:block;
+    float: left;
+} 
+#box .main3 .ma3 .sp4hh{
+    float: right;
+    font-size: 14x;
+    line-height: 14px;
+    margin-top: 37px;
+} 
+#box .main3 .ma3 a{
+    color: #ccc;
+}
+
+
+#box .main3 .mai{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background:url(../images/bg-help.png) center center;
+}
+#box .main3 .mai .maip{
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-top:52px ;
+    margin-left: 250px;
+    color: black;
+}
+#box .main3 .mai .maipp{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 250px;
+    color: black;
+}
+#box .main3 .mai .mais{
+    width: 180px;
+    height: 60px;
+    float: right;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px;
+    margin-top: -65px;
+    margin-right: 150px;
+    background: orange;
+}
+
+
+#box .main3 .main1{
+   width: 100%;
+   margin-top:30px ;
+}
+#box .main3 .main1 .m1{
+    width:270px ;
+    height: 334px;
+    float: left;
+    margin-right: 30px;
+    background: #fff;
+}
+#box .main3 .main1 .m1 a{
+    color: #1b1b1b;
+}
+#box .main3 .main1 .m1 .mimg{
+    width: 270px;
+    height: 180px;
+    background: url(../images/100001190.jpg);
+    background-size: 270px 180px;
+}
+#box .main3 .main1 .m1 .mimg .mimgp{
+    color: #fff;
+    text-align: center;
+    line-height: 180px;
+}
+#box .main3 .main1 .m1 .m1m{
+    width: 270px;
+    height: 154px;
+    float: left;
+
+}
+#box .main3 .main1 .m1 .m1m .m1mm{
+    width: 230px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 19px;
+    border-bottom: 1px dashed #ccc;
+}
+#box .main3 .main1 .m1 .m1m .m1mm .m1mm1{
+    font-size: 12px;
+    line-height: 26px;
+    width: 66px;
+    height: 26px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background: pink;
+}
+#box .main3 .main1 .m1 .m1m ul{
+    margin-left: 20px;
+    width: 270px;
+}
+#box .main3 .main1 .m1 .m1m ul li{
+    font-size: 12px;
+    line-height: 12px;
+    width: 240px;
+    margin-top: 10px;
+}
+#box .main3 .main1 .m1 img{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+#box .main4{
+    width: 100%;
+    height: 1045px;
+}
+#box .main4 .ma4{
+    display:block;
+    height: 82px;
+    color: black;   
+}
+#box .main4 .sp4h{
+    font-size: 26px;
+    line-height: 82px;
+    display:block;
+    float: left;
+} 
+#box .main4 .sp4hh{
+    float: left;
+    font-size: 14x;
+    line-height: 14px;
+    margin-left: 20px;
+    margin-top: 37px;
+} 
+#box .main4 .mai{
+    width: 1200px;
+    height: 350px;
+    position: relative;
+    background: url(../images/bg-counsoler.png)center center;
+}
+#box .main4 .mai .maia{
+    width: 365px;
+    height: 290px;
+    position: absolute;
+    top:30px;
+    left: 30px;
+    color: #fff;
+    text-align: center;
+    background: rgba(15, 15, 15, 0.8);
+}
+#box .main4 .mai .maia .mainap{
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 30px;  
+    display: block;
+}
+#box .main4 .mai .maia .ma4u{
+    width: 290px;
+    height: 190px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#box .main4 .mai .maia .ma4u li{
+    width:90px;
+    height: 36px;
+    float: left;
+    margin-bottom: 10px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+#box .main4 .mai .maia .ma4u .l{
+    margin-right: 10px;
+}
+#box .main4 .mai .maia .ma4u a{
+    color: black;
+}
+#box .main4 .mai .maia .ma4u a:hover{
+    color: white;
+    display: block;
+    border-radius: 5px;
+    background: orange;
+}
+#box .main4 .mai4{
+    height: 360px;
+    overflow: hidden;
+}
+#box .main4 .mai4 .mai41{
+    font-size:14px ;
+    line-height: 82px;
+    display: block;
+    height: 82px;
+    float: left;
+}
+#box .main4 .mai4 .mai42{
+    font-size:14px ;
+    float: left;
+    display: block;
+    height: 82px;
+    line-height: 82px;
+    margin-left: 60px;
+}
+#box .main4 .mai4 a{
+   color: black;
+}
+#box .main4 .mai4 a:hover{
+    color: orange;
+ }
+#box .main4 .mai4 .mai43{
+    font-size:14px ;
+    float: right;
+    display: block;
+    height: 82px;
+    line-height: 82px;
+}
+#box .main4 .mai4 .mai43 a{
+    color: #ccc;
+}
+#box .main4 .mai4 .mai4u{
+    margin-top: 82px;
+    height: 274px;
+}
+#box .main4 .mai4 .mai4u li{
+    height: 274px;
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+    background: #ccc;
+}
+#box .main4 .mai4 .mai4u .il1{
+    position: relative;
+    background: url(../images/12.jpg) center center;
+}
+#box .main4 .mai4 .mai4u .dp{
+    height: 60px;
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    display: block;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+}
+#box .main4 .mai4 .mai4u li:hover .dp{
+    display: none;
+}
+#box .main4 .mai4 .mai4u .dd{
+    overflow: hidden;
+    display: none;
+    color: #fff;
+}
+
+#box .main4 .mai4 .mai4u .dd h5{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#box .main4 .mai4 .mai4u .dd .maip{
+    font-size: 16px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+#box .main4 .mai4 .mai4u li:hover .dd{
+    height: 274px;
+    width: 220px;
+    background: rgb(248, 163, 5,0.9);
+    display: block;
+}
+
+#box .main4 .mai4 .mai4u .il2{
+    position: relative;
+    background: url(../images/8965531.png) center center;
+}
+#box .main4 .mai4 .mai4u .il3{
+    position: relative;
+    background: url(../images/12.jpg) center center;
+}
+#box .main4 .mai4 .mai4u .il4{
+    position: relative;
+    background: url(../images/8965531.png) center center;
+}
+#box .main4 .mai4 .mai4u .il5{
+    position: relative;
+    background: url(../images/12.jpg) center center;
+}
+
+
+#box .main4 .maitu{
+    margin-top: 30px;
+    height: 180px;
+    background: url(../images/300bg.png);
+}
+#box .main4 .maitu .tup1{
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    width: 500px;
+    float: left;
+    padding: 45px 0px 30px 250px;
+}
+#box .main4 .maitu .tup2{
+    font-size: 24px;
+    line-height: 24px;
+    width: 500px;
+    float: left;
+    padding: 0px 0px 0px 250px;
+}
+#box .main4 .maitu .tus{
+    display: block;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background: orange;
+    float: right;
+    text-align: center;
+    line-height: 60px;
+    margin-top: -60px;
+    margin-right: 160px;
+}
+#box .main4 .maitu .tus a{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+#box .main4 .maitu .tup{
+    float: right;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 150px;
+}
+
+
+
+
+
+#box .main5{
+    width: 100%;
+    height: 430px;
+    background:#f8f8f8;
+}
+#box .main5 .m5{
+    height: 208px;
+    overflow: hidden;
+}
+#box .main5 .m5 h4{
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 40px;
+}
+#box .main5 .m5 .m5s{
+    display: block;
+    float: right;
+    font-size: 14px;
+    line-height: 14px;
+    width: 100px;
+    color: #ccc;
+}
+#box .main5 .m5 .m5s a{
+    color: #ccc;
+}
+#box .main5 .m5 .m5d1{
+    width: 380px;
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: url(../images/bg-report-1.png);
+}
+#box .main5 .m5 .m5d1 .m5dp{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 24px 100px 0px 36px;
+}
+#box .main5 .ma5{
+    height: 222px;
+}
+#box .main5 .ma5 h4{
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 40px;
+}
+#box .main5 .ma5 div{
+    width: 150px;
+    height: 70px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+#box .footer{
+    width: 100%;
+    height: 626px;
+    background: #1b1b1b;
+}
+#box .footer .ft{
+    height: 190px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+#box .footer .ft p{
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 60px;
+}
+#box .footer .ft .fts{
+    display: block;
+    width: 100px;
+    height: 40px;
+    float: left;
+    background: #494949;
+}
+#box .footer .ft .ftss{
+    display: block;
+    width: 100px;
+    height: 40px;
+    float: left;
+    background: #323232;
+}
+#box .footer .ft ul{
+    margin-top: 20px;
+}
+#box .footer .ft ul li{
+    width:60px ;
+    float: left;
+}
+#box .footer .ft ul li a{
+    color: #525050;
+}
+#box .footer .fc{
+    height: 270px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+#box .footer .fc .fc1{
+    float: left;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+#box .footer .fc .fc1 li{
+    line-height: 30px;
+    font-size: 14px;
+}
+#box .footer .fc .fc1 li a:hover{
+    color: #fff;
+}
+#box .footer .fc a{
+    color: #c8c8c8;
+}
+#box .footer .fc .fc2{
+    width: 320px;
+    height: 160px;
+    margin-top: 60px;
+    float: right;
+}
+#box .footer .fc .hhh{
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+#box .footer .fc .fc2p{
+    font-size: 22px;
+    line-height: 22px;
+    margin-top: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+#box .footer .fc .fc2s{
+    display: block;
+    margin-top: 40px;
+    width:142px ;
+    height:42px ;
+    float: left;
+    text-align: center;
+    line-height: 42px;
+    background: #444444;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 160, 160);
+    color: #fff;
+}
+#box .footer .fc .fc2s:hover{
+    background: rgb(124, 121, 121);
+}
+#box .footer .ff{
+    height: 164px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+#box .footer .ff p{
+    color: #333333;
+    margin-top:56px ;
+}

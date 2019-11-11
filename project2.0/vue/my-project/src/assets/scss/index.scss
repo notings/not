@@ -1,0 +1,1066 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+//header页面
+.top {
+    width: auto;
+    height: auto;
+
+    .header {
+        width: 100%;
+        height: 2.75rem;
+        padding: 0.625rem 1.1875rem 0.3125rem;
+        box-sizing: border-box;
+        font-size: .75rem;
+
+        .logo {
+            display: inline-block;
+            height: 1.375rem;
+            width: 6.0625rem;
+            padding-right: 1.0625rem;
+
+            .imgs {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .inputsearch {
+            display: inline-block;
+            width: 11.25rem;
+            height: 1.75rem;
+            color: #130d0d;
+            border-radius: .3125rem;
+            background-color: #f3f3f3;
+            padding: .0625rem .4375rem 0;
+            box-sizing: border-box;
+            position: relative;
+            border: .0625rem solid #ccc;
+
+            .search-icon {
+                display: inline-block;
+                color: #666;
+                line-height: 1.75rem;
+                padding-right: .375rem;
+                box-sizing: border-box;
+                font-size: .875rem;
+            }
+
+            .search-text {
+                display: inline-block;
+                color: #999;
+            }
+        }
+
+        .icons {
+            display: inline-block;
+            width: 1.875rem;
+            height: 1.75rem;
+            margin-left: .625rem;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+    }
+}
+
+//选项卡字体
+.van-ellipsis {
+
+    font-weight: 700;
+    font-size: 1rem; //16
+}
+
+//静态
+.hotapp {
+    float: left;
+    width: auto;
+    height: auto;
+    border-top: 5px solid #f1f1f1;
+
+    .hot-item {
+        height: auto;
+        padding-bottom: 10px;
+        float: left;
+
+        .hot-ul {
+            float: left;
+            display: flex;
+            width: 380px;
+            overflow-x: auto;
+            flex-shrink: 0;
+            white-space: nowrap;
+
+            li {
+                height: 136px;
+                flex: 1;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 70px;
+                padding: 0px 13px 0px;
+                color: #333;
+
+                .hot-img {
+                    width: 3.4375rem; //55
+                    height: 3.4375rem;
+                    margin: auto;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                p {
+                    color: #aab2bd;
+                    font-size: 12px;
+                    padding-bottom: 8px;
+                }
+            }
+
+        }
+    }
+}
+
+.tit {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 10px 10px 20px;
+    box-sizing: border-box;
+    position: relative;
+
+    .van-icon {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+.tit-h {
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.down {
+    display: inline-block;
+    width: 53px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #05b4ff;
+    color: #05b4ff;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+p {
+    color: #aab2bd;
+    font-size: 12px;
+    padding-bottom: 8px;
+
+    span {
+        margin-right: 10px;
+    }
+}
+
+
+//数据渲染
+.popularityApp {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border-top: 5px solid #f1f1f1;
+    float: left;
+
+    .Popularity-item {
+        height: auto;
+        padding: 0px 20px 0px 20px;
+        box-sizing: border-box;
+    }
+
+    .foot {
+        width: auto;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: #999;
+    }
+}
+
+//单个
+.popu-ul {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    li {
+        height: 80px;
+        flex: 1;
+        align-items: center;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        position: relative;
+        color: #333;
+
+        .popularity-img {
+            display: inline-block;
+            width: 55px;
+            height: 55px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .introduce {
+            display: inline-block;
+            padding-left: 15px;
+            box-sizing: border-box;
+
+            .size {
+                color: #999;
+                font-size: 12px;
+
+                span:nth-child(2) {
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .download {
+            display: inline-block;
+            position: absolute;
+            top: 22px;
+            right: 0;
+        }
+    }
+}
+
+
+//图片下的nav
+.nav {
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+
+    .nav-img {
+        width: 318px;
+        height: 146px;
+        margin: auto;
+        margin-top: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+    }
+
+    .nav-list {
+        height: auto;
+        display: flex;
+        text-align: center;
+        margin: 20px 0 20px;
+
+        .img-wrap {
+            flex: 1;
+
+            img {
+                width: 18px;
+                height: 18px;
+            }
+
+            .img-s {
+                width: 12px;
+                height: 18px;
+            }
+
+            span {
+                font-size: 12px;
+                color: #333;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+// 内容1 精选
+.choiceness {
+    width: auto;
+    height: auto;
+
+    .swipe {
+        height: auto;
+        background: #fff;
+
+        .van-swipe {
+            padding: 18px 0;
+            box-sizing: border-box;
+
+            .van-swipe-item {
+                text-align: center;
+
+                img {
+                    width: 19.875rem;
+                    height: 9.125rem;
+                    border-radius: .625rem;
+                    -webkit-border-radius: .625rem;
+                    -moz-border-radius: .625rem;
+                    -ms-border-radius: .625rem;
+                    -o-border-radius: .625rem;
+                }
+            }
+        }
+
+        .navs {
+            width: 100%;
+            height: 38px;
+            text-align: center;
+            padding-bottom: 20px;
+            box-sizing: border-box;
+
+            .wraps {
+                width: 7.8125rem;
+                height: 1.25rem;
+                display: inline-block;
+
+                .navImg {
+                    width: 1.125rem;
+                    height: 1.125rem;
+                }
+
+                span {
+                    font-size: .8125rem;
+                    padding-left: 10px;
+                    padding-top: 5px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+
+    }
+}
+
+
+//内容2 软件
+.software {
+    width: auto;
+    height: auto;
+
+    .popularityApp {
+        height: auto;
+
+        .popularity-img {
+            position: relative;
+            top: -20px;
+            left: 0;
+        }
+
+        .intro {
+            width: 210px;
+            font-size: 12px;
+            color: #666;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+
+}
+
+
+//内容3
+// .Game {}
+
+//内容4 分类
+.classify {
+    width: auto;
+    height: auto;
+
+    .van-ellipsis {
+        //选项卡字体
+        font-weight: 700;
+        font-size: 14px; //16
+    }
+
+    .van-tab--active {
+        color: #37c3ff;
+        font-weight: 500;
+    }
+
+    .classsoft,
+    .classgame {
+        width: auto;
+        height: auto;
+        background: #fff;
+        padding: 0 0 20px 20px;
+
+        .wape-item {
+            height: auto;
+            padding: 20px 0 10px;
+
+            .name {
+                width: 66px;
+                height: auto;
+                display: inline-block;
+                text-align: center;
+                margin: auto;
+
+                .h-wrap {
+                    font-size: 13px;
+                    color: #333;
+                }
+            }
+
+            .content {
+                width: 289px;
+                height: auto;
+                display: inline-block;
+
+                .content-ul {
+                    li {
+                        text-align: center;
+                        width: 96px;
+                        display: inline-block;
+                        color: #666;
+
+                        span {
+                            display: inline-block;
+                            width: 88px;
+                            font-size: 13px;
+                            border-right: 1px solid #ccc;
+                        }
+
+                        .none {
+                            border-right: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//login
+.login {
+    width: auto;
+    height: auto;
+
+    .login-item {
+        height: auto;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(35deg, #25cdff, #467bf3);
+        border: 0px;
+        text-align: center;
+        padding: 13px 0;
+        box-sizing: border-box;
+
+        p {
+            font-weight: 700;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .wrap-items {
+            margin-top: 20px;
+        }
+
+        .btn {
+            width: 79px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 13px;
+            text-align: center;
+            border: 1px solid #fff;
+            background-image: linear-gradient(35deg, #25cdff, #467bf3);
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+    }
+
+    .opinion {
+        width: auto;
+        height: 100%;
+        margin-top: 5px;
+        background: #fff;
+        padding: 0 19px;
+        box-sizing: border-box;
+
+        .opinion-item {
+            height: 44px;
+            line-height: 44px;
+            color: #333;
+            font-weight: 700;
+            border-bottom: 1px solid rgba(204, 204, 204, 0.39);
+
+            .van-icon {
+                float: right;
+                line-height: 44px;
+            }
+        }
+
+        .nones {
+            border-bottom: none;
+        }
+    }
+}
+
+//loging
+
+.loging {
+    width: auto;
+    height: auto;
+    padding: 16px 18px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    .header {
+        height: 44px;
+        line-height: 44px;
+
+        .van-icon {
+            font-weight: 700;
+        }
+    }
+
+    .content {
+        width: auto;
+        height: auto;
+
+        .cont-img {
+            width: 100px;
+            height: 54px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .login-wrap,
+        .register-wrap {
+            margin-top: 20px;
+            text-align: center;
+
+            h3 {
+                font-weight: 700;
+                font-size: 30px;
+                text-align: left;
+                margin-bottom: 30px;
+            }
+
+            label {
+                display: inline-block;
+                width: 80px;
+                text-align: center;
+                margin-top: 26px;
+                font-weight: 700;
+            }
+
+            input {
+                width: 250px;
+                height: 40px;
+                line-height: 40px;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                outline: none;
+                border: 1px solid #888;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            p {
+                color: red;
+            }
+
+            button {
+                display: block;
+                width: 250px;
+                height: 40px;
+                line-height: 40px;
+                border: none;
+                background-color: #467bf3;
+                color: #fff;
+                font-size: 16px;
+                margin-top: 20px;
+                margin-left: 80px;
+                margin-bottom: 10px;
+            }
+
+            span {
+                cursor: pointer;
+                font-size: 14px;
+                color: #999;
+                margin-left: 64px;
+            }
+        }
+
+
+        // .cont-title {
+        //     font-size: 30px;
+        //     font-weight: 700;
+        //     margin-top: 20px;
+        // }
+
+        // .cont-input {
+        //     width: auto;
+        //     height: auto;
+        //     margin-top: 30px;
+
+        //     label {
+        // display: inline-block;
+        // width: 70px;
+        // text-align: center;
+        // margin-top: 26px;
+        //     }
+
+        //     .text {
+        //         width: 260px;
+        //         height: 40px;
+        //         padding: 10px;
+        //         box-sizing: border-box;
+        //         border: 1px solid #ccc;
+        //     }
+
+        //     button {
+        //         width: 90px;
+        //         height: 40px;
+        //         margin-top: 20px;
+        //         margin-left: 130px;
+        //         border: 0;
+        //         color: #fff;
+        //         background: cornflowerblue;
+        //     }
+
+        //     p {
+        //         font-size: 12px;
+        //         color: #999;
+        //         margin-top: 10px;
+        //         text-align: c;
+
+        //         span {
+        //             color: #38f;
+        //         }
+        //     }
+        // }
+    }
+
+    .foot {
+        height: auto;
+        text-align: center;
+        position: fixed;
+        bottom: 20px;
+        left: 130px;
+
+        .btns {
+            display: inline-block;
+            color: #5d667a;
+            padding: 0 14px 20px;
+            box-sizing: border-box;
+            height: 20px;
+            line-height: 20px;
+            background: 0;
+            font-size: 14px;
+        }
+    }
+
+    .foots {
+        height: auto;
+        position: absolute;
+        left: 62px;
+        bottom: 30px;
+        text-align: center;
+
+        .foots-tit {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .foots-tu {
+            width: auto;
+
+            span {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                padding: 8px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+//detail 详情
+.detail {
+    width: auto;
+    height: auto;
+
+    .det-header {
+        height: 48px;
+        line-height: 48px;
+
+        .head-ul {
+            display: flex;
+            text-align: center;
+
+            li {
+                flex: 1;
+                font-size: 14px;
+                color: #333;
+                font-weight: 700;
+
+                .van-icon {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .det-tu {
+        width: auto;
+        height: 32px;
+
+        .det-tus {
+            width: 110px;
+            height: 22px;
+            float: right;
+            padding-right: 19px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .det-content {
+        height: auto;
+        text-align: center;
+        margin-top: 22px;
+
+        .cont-img {
+            width: 74px;
+            height: 74px;
+            margin: auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .cont-hh {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 8px;
+        }
+
+        .cont-pp {
+            color: #999;
+            font-size: 12px;
+            margin-top: 4px;
+        }
+    }
+
+    .det-download {
+        text-align: center;
+        height: auto;
+
+        .down-safe {
+            margin: 10px auto;
+            display: block;
+            width: 289px;
+            height: 38px;
+            line-height: 38px;
+            font-size: 15px;
+            color: #fff;
+            background-color: #467bf3;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+
+        .van-action-sheet {
+            padding-bottom: 30px;
+
+            .item-bai {
+                font-size: 18px;
+                color: #333;
+
+                span {
+                    color: #467bf3;
+                }
+            }
+
+            .item-du {
+                font-size: 14px;
+                color: #999;
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 10px;
+            }
+
+            .down-img {
+                width: 320px;
+                height: 130px;
+                margin: auto;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .down-Ordinary {
+            color: #999;
+        }
+    }
+
+    .det-intro {
+        width: auto;
+        height: auto;
+        margin-top: 40px;
+
+        .intro-img {
+            ul {
+                display: flex;
+                width: auto;
+                overflow: scroll;
+
+                li {
+                    height: 216px;
+                    flex-shrink: 0;
+                    flex: 1;
+                    margin-left: 20px;
+                    width: 110px;
+
+                    .intro-src {
+                        width: 110px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            -moz-border-radius: 10px;
+                            -ms-border-radius: 10px;
+                            -o-border-radius: 10px;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .intro-title {
+            font-size: 12px;
+            color: #999;
+            padding: 20px;
+        }
+    }
+}
+
+
+//搜索页面
+.search {
+    width: auto;
+    height: auto;
+
+    .label {
+        height: auto;
+        display: flex;
+        border-top: 5px solid #f1f1f1;
+
+        .left {
+            border-right: 5px solid #f1f1f1;
+            flex: 1;
+            padding: 0 10px 0;
+        }
+
+        h3 {
+            padding: 14px 14px 6px;
+            box-sizing: border-box;
+            font-size: 12px;
+            color: #999;
+            font-weight: 400;
+        }
+
+        .terms {
+            font-size: 12px;
+
+            a {
+                max-width: 60px;
+                display: inline-block;
+                padding: 5px 10px;
+                margin: 7px 4px !important;
+                border-radius: 50px;
+                border: 1px solid #ccc;
+                color: #333;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+
+            }
+
+            .color {
+                color: red;
+            }
+        }
+
+        .right {
+            flex: 1;
+        }
+    }
+
+    .search-intra {
+        height: auto;
+        margin-top: 10px;
+
+        .popu-ul {
+            padding: 0px 20px 0px 20px;
+            box-sizing: border-box;
+
+            li {
+                box-shadow: 0 0 20px -5px;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+        }
+    }
+}
+
+
+
+//list
+.list {
+    width: auto;
+    height: auto;
+
+    .list-head {
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+
+        .head-icon {
+            display: inline-block;
+            flex: 1;
+        }
+
+        .head-name {
+            display: inline-block;
+            text-align: center;
+            flex: 2;
+        }
+
+        .head-search {
+            display: inline-block;
+            flex: 1;
+            text-align: right;
+        }
+    }
+
+    .buttona {
+        width: auto;
+        height: auto;
+        padding: 10px 20px 20px 20px;
+        box-sizing: border-box;
+
+        .btna {
+            max-width: 60px;
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 7px 4px;
+            font-size: 12px;
+            border-radius: 50px;
+            border: 1px solid #ccc;
+            color: #999;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            background: 0;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+        }
+    }
+
+    .list-content {
+        height: auto;
+        padding: 10px 20px 20px 20px;
+        box-sizing: border-box;
+
+        .cont-ol {
+            width: auto;
+
+            li {
+                position: relative;
+                padding: 10px 0 0;
+
+                .number {
+                    display: inline-block;
+                    font-size: 16px;
+                    color: #ff132f;
+                }
+
+                .imgs {
+                    display: inline-block;
+                    width: 55px;
+                    height: 55px;
+                    margin-left: 10px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .introduce {
+                    display: inline-block;
+                    margin-left: 14px;
+                }
+
+                .down {
+                    position: absolute;
+                    right: 20px;
+                    top: 30px;
+                }
+            }
+        }
+
+    }
+}

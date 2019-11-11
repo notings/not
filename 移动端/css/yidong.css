@@ -1,0 +1,305 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+}
+
+#box .hearder {
+  height: 44px;
+}
+
+#box .hearder .hu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box .hearder .hu li:nth-child(2) {
+  flex: 6;
+}
+
+#box .hearder .hu li {
+  flex: 1;
+  text-align: center;
+  line-height: 44px;
+}
+
+#box .main {
+  flex: 1;
+  background: #f4f4f4;
+}
+
+#box .main .banner {
+  height: 210px;
+}
+
+#box .main .banner img {
+  height: 210px;
+  width: 100%;
+}
+
+#box .main .a {
+  height: 75px;
+  background: #fff;
+}
+
+#box .main .a .au {
+  height: 75px;
+  display: flex;
+}
+
+#box .main .a .au li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#box .main .a .au li img {
+  width: 40px;
+  height: 40px;
+}
+
+#box .main .a .au li span {
+  padding-top: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+#box .main .b {
+  margin-top: 10px;
+  height: 65px;
+  background: url(../images/bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+#box .main .b p {
+  padding-top: 7px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#box .main .b p .bps1 {
+  width: 23px;
+  height: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  border: 1px solid orangered;
+}
+
+#box .main .b p .bps2 {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+#box .main .c {
+  margin-top: 10px;
+  height: 170px;
+  text-align: center;
+}
+
+#box .main .c img {
+  height: 170px;
+  width: 94%;
+}
+
+#box .main .d {
+  margin-top: 10px;
+  height: 150px;
+  overflow: auto;
+  background: #fff;
+}
+
+#box .main .d .du {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box .main .d .du li {
+  flex: 1;
+  height: 150px;
+  text-align: center;
+}
+
+#box .main .d .du li img {
+  width: 100px;
+  height: 100px;
+}
+
+#box .main .d .du li p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#box .main .e {
+  height: 170px;
+  text-align: center;
+  background: #fff;
+}
+
+#box .main .e img {
+  height: 170px;
+  width: 94%;
+}
+
+#box .main .f {
+  height: 150px;
+  overflow: auto;
+  background: #fff;
+}
+
+#box .main .f .fu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box .main .f .fu li {
+  flex: 1;
+  height: 150px;
+  text-align: center;
+}
+
+#box .main .f .fu li img {
+  width: 150px;
+  height: 100px;
+}
+
+#box .main .f .fu li p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#box .main .g {
+  background: #fff;
+}
+
+#box .main .g .gd1 {
+  height: 51px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#box .main .g .gd1 h2 {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+#box .main .g .gd1 p {
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+}
+
+#box .main .g .gd2 {
+  width: 100%;
+}
+
+#box .main .g .gd2 .gu {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+#box .main .g .gd2 .gu li {
+  width: 42%;
+  height: 210px;
+  flex: 1;
+  background: #fff;
+}
+
+#box .main .g .gd2 .gu li a {
+  display: block;
+  color: black;
+  text-align: center;
+}
+
+#box .main .g .gd2 .gu li a img {
+  width: 130px;
+  height: 130px;
+}
+
+#box .main .g .gd2 .gu li a p {
+  font-size: 10px;
+  line-height: 20px;
+}
+
+#box .main .g .gd2 .gu li a p .ps1 {
+  color: red;
+}
+
+#box .main .g .gd2 .gu li a p .ps2 {
+  color: #b9b9b9;
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+
+#box .footer {
+  height: 65px;
+}
+
+#box .footer .fu {
+  height: 65px;
+  display: flex;
+}
+
+#box .footer .fu li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box .footer .fu li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box .footer .fu li a .i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#box .footer .fu li a .i2 {
+  width: 40px;
+  height: 40px;
+  display: none;
+  line-height: 40px;
+}
+
+#box .footer .fu li a span {
+  font-size: 14px;
+  line-height: 14px;
+  color: #b9b9b9;
+}
+
+#box .footer .fu li:hover span {
+  color: black;
+}
+
+#box .footer .fu li:hover .i2 {
+  display: block;
+}
+
+#box .footer .fu li:hover .i {
+  display: none;
+}

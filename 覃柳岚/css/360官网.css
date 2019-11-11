@@ -1,0 +1,560 @@
+#box{
+    width: 100%;
+    height: 1415px;
+    overflow: hidden;
+}
+.content{
+    width: 1240px;
+    height: 100%;
+    margin: auto;
+}
+.main1{
+    width: 100%;
+    height:106px;
+    overflow: hidden;
+}
+#box .main1 .content .ma11{
+    width: 412px;
+    height: 105px;
+    float: left;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#box .main1 .content h4{
+    margin-left: 140px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+#box .main1 .content p{
+    margin-left: 140px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ccc;
+}
+ #box .main1 .content .ma11 .sp1{
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin-left: 60px;
+    margin-top: 22px;
+    float: left;
+    background: url(../images/logos.png);
+   
+}
+#box .main1 .content .ma12{
+    width: 412px;
+    height: 105px;
+    float: left;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#box .main1 .content .ma12 .sp2{
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin-left: 60px;
+    margin-top: 22px;
+    float: left;
+    background: url(../images/logos.png);
+    background-position: -0px -80px;
+}
+
+#box .main1 .content .ma13{
+    width: 412px;
+    height: 105px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+#box .main1 .content .ma13 .sp3{
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin-left: 60px;
+    margin-top: 22px;
+    float: left;
+    background: url(../images/logos.png);
+    background-position: -0px -146px;
+}
+
+
+
+
+
+
+
+.main2{
+    width: 100%;
+    height: 280px;
+}
+.main2 .m2l{
+    width: 900px;
+    height: 280px;
+    float: left;
+}
+.main2 .m2l h2{
+    height: 20px;
+    margin-top: 30px;
+    color: green;
+}
+.main2 .sp21{
+    font-size: 18px;
+    line-height: 18px;
+    float: left;
+}
+.main2 .sp22{
+    font-size: 14px;
+    line-height: 14px;
+    float: right;
+}
+.main2 .m2l .sp22 a{
+    color: gray;
+}
+.main2 .m2l .m2a{
+    width: 291px;
+    height: 209px;     
+    float: left;
+    margin-right: 9px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.main2 .m2l .m2a .m2ap{
+    width: 290px;
+    height: 162px;
+    background: url(../images/t01b68886e4ba7bb7c5.png) no-repeat center center;
+    background-size: 290px 162px;
+}
+
+.main2 .m2l .m2a .m2ap:hover{
+    background-size: 310px 182px;
+}
+.main2 .m2l .m2b{
+    width: 291px;
+    height: 209px;       
+    float: left;
+    margin-right: 9px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.main2 .m2l .m2b .m2bp{
+    width: 290px;
+    height: 162px;
+    background: url(../images/t0103968d1bc80ae8ba.png) no-repeat center center;
+    background-size: 290px 162px;
+}
+
+.main2 .m2l .m2b .m2bp:hover{
+    background-size: 310px 182px;
+}
+.main2 .m2l .m2c{
+    width: 291px;
+    height: 209px;        
+    float: left;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.main2 .m2l .m2c .m2cp{
+    width: 290px;
+    height: 162px;
+    background: url(../images/t014cad66c488e589f3.png) no-repeat center center;
+    background-size: 290px 162px;
+}
+
+.main2 .m2l .m2c .m2cp:hover{
+    background-size: 310px 182px;
+}
+.main2 .m2l .m2p{
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+.main2 .m2r{
+    width:325px;
+    height: 280px;
+    float: left;
+    margin-left: 9px;
+}
+.main2 .m2r h2{
+    height: 20px;
+    margin-top: 30px;
+    color: green;
+}
+.main2 .m2r .m2ru{
+    width: 325px;
+    height: 209px;
+    margin-top: 20px;
+}
+.main2 .m2r .m2ru li{
+    width: 107px;
+    height: 102px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.main2 .m2r .m2ru .m2rl{
+    border-top: 1px solid #e5e5e5;
+}
+.main2 .m2r .m2ru .m2rll{
+    border-left: 1px solid #e5e5e5;
+}
+.main2 .m2r .m2ru li .l1{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.main2 .m2r .m2ru li:hover{
+    box-shadow:0px 0px 10px #AAA;
+}
+.main2 .m2r .m2ru li .l2{
+    margin-top: 10px;
+    margin-left:32px ;
+    font-size: 12px;
+    line-height: 20px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #9e9d9d;
+}
+.main2 .m2r .m2ru li .l2 a{
+    color: black;
+} 
+.main2 .m2r .m2ru li .l2 a:hover{
+    background: #e5e5e5;
+    display: block;
+} 
+
+
+
+
+
+.main3{
+    width: 100%;
+    height: 217px;
+    overflow: hidden;
+    background: white;
+}
+.main3 .ma3{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: green;
+}
+.main3 .ma3l{
+    width:391px ;
+    height: 142px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.main3 .m3f{
+    margin-right: 30px;
+}
+.main3 img{
+    float: left;
+    padding: 25px 20px;
+}
+.main3 .m3h{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.main3 .m3p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ccc;
+    padding: 14px 50px 0px 0px;
+}
+.main3 .ma3l:hover{
+    box-shadow:0px 0px 10px rgb(190, 189, 189);
+}
+
+
+
+
+
+
+
+
+.main4{
+    width: 100%;
+    height: 805px;
+}
+.main4 .ma4{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: green;
+}
+.main4 .ma4l{
+    width: 607px;
+    height: 805px;
+    float: left;
+    margin-right: 20px;
+}
+.main4 .ma4l .ma4lu{
+    width: 606px; 
+    height: 564px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.main4 .ma4l .ma4lu li{
+    width: 302px;
+    height: 140px;
+    float: left;
+    position: relative;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.main4 .ma4l .ma4lu li .ma4a{
+    font-size: 10px;
+    line-height: 10px;
+    color: #ccc;
+    position: absolute;
+    top:6px;
+    right: 10px;
+}
+.main4 .ma4l .ma4lu li img{
+    float: left;
+    padding: 40px 20px 0px 30px;
+}
+.main4 .ma4l .ma4lu li .ma4lp{
+   margin-top: 40px;
+   font-size: 20px;
+   line-height: 20px;
+   margin-bottom: 30px;
+} 
+.main4 .ma4l .ma4lu li .ma4aa{
+   height: 30px;
+   width: 70px;
+   text-align: center;
+   line-height: 28px;
+   color: black;
+   display: block;
+   float: left;
+   border: 1px solid #ccc;
+   margin-right: 10px;
+}
+.main4 .ma4l .ma4lu li .ma4aa:hover{
+    background: #d8d6d675;
+}   
+.main4 .ma4l .ma4lu li:hover{
+    box-shadow:0px 0px 10px #ccc;
+}
+
+
+.main4 .ma4l .ma4lf{
+    width: 605px;
+    height: 170px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.main4 .ma4l .ma4lf .ma4lfu{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 560px;
+}
+.main4 .ma4l .ma4lf .ma4lfu li{
+    float: left;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    margin-right: 30px;
+}
+.main4 .ma4l .ma4lf .ma4lfu li .a1{
+    display: block;
+    width: 28px;
+    height: 25px;
+    line-height: 30px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+    background: url(../images/t01b252866e85dd53a9.png);
+    background-position: -0px -0px;
+}
+.main4 .ma4l .ma4lf .ma4lfu li .a2{
+    font-size: 14px;
+    line-height: 14px;
+    color: blue;
+}
+.main4 .ma4l .ma4lf .ma4lfu li a{
+    color: black;
+}
+.main4 .ma4l .ma4lf .ma4lfu li .a3{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+    background: url(../images/t01b252866e85dd53a9.png);
+    background-position: -0px -43px;
+}
+.main4 .ma4l .ma4lf .ma4lfu li .a4{
+    font-size: 14px;
+    line-height: 14px;
+    color: blueviolet;
+}
+
+
+.main4 .ma4l .ma4lf .ma4lfu li .a5{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+    background: url(../images/t01b252866e85dd53a9.png);
+    background-position: -0px -87px;
+}
+.main4 .ma4l .ma4lf .ma4lfu li .a6{
+    font-size: 14px;
+    line-height: 14px;
+    color: orange;
+}
+.main4 .ma4l .ma4lf .ma4lfu li a:hover{
+    color: green;
+}
+
+
+
+
+.main4 .ma4r{
+    width: 607px;
+    height: 805px;
+    float: left;
+    overflow: hidden;
+}
+.main4 .ma4r .ma4rm{
+    width: 606px;
+    height: 736px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.main4 .ma4r .ma4rm .ma4rmt{
+    width: 606px;
+    height: 282px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.main4 .ma4r .ma4rm .c{
+    width: 606px;
+    height: 282px;
+}
+.main4 .ma4r .ma4rm .c li{
+    height: 140px;
+    width: 302px;
+    float: left;
+    position: relative;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.main4 .ma4r .ma4rm .c li .cp1{
+    display: block;
+    width: 100px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.main4 .ma4r .ma4rm .c li .cp2{
+    display: block;
+    width: 100px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: red;
+}
+.main4 .ma4r .ma4rm .c li img{
+    position: absolute;
+    top:10px;
+    right: 20px;
+}
+.main4 .ma4r .ma4rm .c li:hover{
+    box-shadow:0px 0px 10px #ccc;
+}
+
+.main4 .ma4r .ma4d{
+    width: 606px;
+    height: 169px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.main4 .ma4r .ma4d .m4d{
+    display: block;
+    margin-top: 27px;
+    margin-left: 30px;
+    width: 560px;
+}
+.main4 .ma4r .ma4d li{
+    float: left;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    margin-right: 30px;
+}
+
+.main4 .ma4r .ma4d li .d1{
+    display: block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    margin-right: 15px;
+    background: url(../images/t01b252866e85dd53a9.png);
+    background-position: -0px -130px;
+}
+.main4 .ma4r .ma4d li .d2{
+    font-size: 14px;
+    line-height: 14px;
+    color: green;
+}
+.main4 .ma4r .ma4d li a{
+    color: black;
+}
+.main4 .ma4r .ma4d li .d3{
+    display: block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    margin-right: 15px;
+    background: url(../images/t01b252866e85dd53a9.png);
+    background-position: -0px -176px;
+}
+.main4 .ma4r .ma4d li .d4{
+    font-size: 14px;
+    line-height: 14px;
+    color: orangered;
+}
+.main4 .ma4r .ma4d li .d5{
+    display: block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    margin-right: 15px;
+    background: url(../images/t01b252866e85dd53a9.png);
+    background-position: -0px -220px;
+}
+.main4 .ma4r .ma4d li .d6{
+    font-size: 14px;
+    line-height: 14px;
+    color: green;
+}
+.main4 .ma4r .ma4d li a:hover{
+    color: green;
+}

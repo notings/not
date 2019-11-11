@@ -1,0 +1,384 @@
+html, body {
+  height: 100%;
+}
+
+#box{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#box .top{
+  height: 140px;
+  width: 100%;
+}
+#box .top .t{
+  height: 110px;
+  background: url(../img/01.png) no-repeat;
+  background-position: center center;
+}
+#box .top .nav{
+  height: 30px;
+}
+#box .top .nav .nau{
+  height: 30px;
+  margin: auto;
+  width: 30%;
+}
+#box .top .nav .nau .nu{
+  height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#box .top .nav .nau .nu li{
+  flex: 1;
+  font-size: 12px;
+  line-height: 30px;
+}
+#box .top .nav .nau .nu li a{
+  display: block;
+  color: #505050;
+}
+#box .top .nav .nau .nu li a:hover{
+  color: orange;
+}
+
+
+
+ 
+
+
+#box .main{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #ccc;
+}
+
+#box .main .mal{
+  margin-top: 20px;
+  width: 40%;
+}
+
+
+
+#box .main .mal .m1{
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  background: white;
+}
+#box .main .mal h2{
+  text-align: center;
+  font-size: 34px;
+  line-height: 34px;
+}
+#box .main .mal .mp1{
+  margin-top: 9px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+}
+#box .main .mal .mp2{
+  margin-top: 20px;
+}
+#box .main .mal .m1d{
+  width: 86px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  background: orange;
+  margin-top: 18px;
+}
+#box .main .mal .m1d a{
+  display: block;
+  color: #fff;
+}
+#box .main .mal .m1d a:hover{
+  background: #111;
+}
+#box .main .mal .mb{
+  margin-top: 10px;
+  line-height: 26px;
+}
+
+
+
+
+#box .main .mal .m2{
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  background: white;
+  margin-top: 17px;
+}
+#box .main .mal .m2 .mm1 .m2g{
+  margin-top: 10px;
+  height: 152px;
+  width: 100%;
+  background: url(../img/03.png) no-repeat center center;
+  background-size: 100% 152px;
+
+}
+
+
+
+
+
+
+#box .main .mal .m3{
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 17px;
+  background: white;
+}
+#box .main .mal .m4{
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 17px;
+  background:white;
+}
+#box .main .mal .m4 .mm3 .m4g{
+  height: 215px;
+  width: 100%;
+  margin-top: 10px;
+  background: url(../img/02.png) no-repeat;
+  background-size:100% 215px; 
+}
+#box .main .mal .m4 .mm3 .mb span{
+  margin-top: 10px;
+  line-height: 26px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+#box .main .mal .malq{
+  width: 100%;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+#box .main .mal .malq p{
+  /* display: inline-block; */
+  text-align: center;
+}
+#box .main .mal .malq .qs1{
+  display: block;
+  width: 136px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  background: orange;
+}
+
+
+
+#box .main .mar{
+  margin-top: 20px;
+  width: 20%;
+  margin-left: 20px;
+}
+
+#box .main .mar .mara{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: white;
+}
+#box .main .mar .mara h3{
+  font-size: 20px;
+  line-height: 20px;
+}
+#box .main .mar .mara p{
+  font-size: 14px;
+  line-height: 34px;
+}
+
+
+#box .main .mar .marb{
+  width: 100%;
+  padding: 20px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  background: white;
+}
+#box .main .mar .marb .marbd{
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 35px;
+  background: orange;
+}
+#box .main .mar .marb .marbd a{
+  color: #fff;
+  display: block;
+}
+#box .main .mar .marb .marbd a:hover{
+  background: #111;
+}
+#box .main .mar .marc{
+  padding: 20px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  width: 100%;
+  background:white;
+}
+#box .main .mar .marc .mar11{
+  width: 100%;
+}
+#box .main .mar .marc .mar11 a{
+  display: inline-block;
+  padding: 4px;
+  box-sizing: border-box;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: #555;
+  margin: 5px;
+}
+                  
+
+
+
+
+
+#box .foot{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #202020;
+}
+#box .foot .f1{
+  width: 25%;
+  margin-top: 34px;
+}
+#box .foot .f1 .f1a{
+  width: 100%;
+  padding:0px 40px 36px 0px ;
+  box-sizing: border-box;
+}
+#box .foot h4{
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+#box .foot .f1 .f1a .f11{
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px dashed #505050;
+}
+#box .foot .f1 .f1a .f11 .fp11{
+  font-size: 14px;
+  line-height: 14px;
+  
+}
+#box .foot .f1 .f1a .f11 .fp11 a{
+  color: #6d6a6a;
+}
+#box .foot .f1 .f1a .f11 .fp11 a:hover{
+  color: orange;
+}
+#box .foot .f1 .f1a .f11 .fp22{
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 10px;
+  color: #505050;
+}
+
+
+
+#box .foot .f2{
+  width: 25%;
+  margin-top: 34px;
+}
+#box .foot .f2 .f2d{
+  width: 100%;
+  padding:0px 40px 36px 0px ;
+  box-sizing: border-box;
+}
+#box .foot .f2 .f2d .f2da{
+  width: 100%;
+}
+#box .foot .f2 .f2d .f2da a{
+  display: inline-block;
+  padding: 4px;
+  box-sizing: border-box;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #6d6a6a;
+  color: rgb(151, 146, 146);
+  margin: 5px;
+}
+#box .foot .f2 .f2d .f2da a:hover{
+  color: orange;
+}
+
+#box .foot .f3{
+  width: 25%;
+  margin-top: 34px;
+}
+#box .foot .f3 .f3d{
+  width: 100%;
+  padding:0px 40px 36px 0px ;
+  box-sizing: border-box;
+}
+#box .foot .f3 .f3d .f3d1{
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px dashed #505050;
+}
+#box .foot .f3 .f3d .f3d1 p{
+  font-size: 14px;
+  line-height: 26px;
+}
+#box .foot .f3 .f3d .f3d1 p a{
+  display: inline-block;
+  color: #505050;
+  margin-left: 10px;
+}
+#box .foot .f3 .f3d .f3d1 p a:hover{
+  color: orange;
+}
+
+
+
+#box .footer{
+  border-top: 1px solid rgb(102, 100, 100);
+  height: 42px;
+  width: 100%;
+  text-align: center;
+  background: #111;
+  color: #555;
+}
+
+
+
+
+
+@media all and (min-width:0px) and (max-width:990px) {
+  
+  #box .main .mal{
+    width: 90%;
+  }
+  #box .main .mar{
+    width: 90%;
+  }
+  #box .foot .f1{
+    width: 90%;
+  }
+  #box .foot .f2{
+    width: 90%;
+  }
+  #box .foot .f3{
+    width: 90%;
+  }
+}

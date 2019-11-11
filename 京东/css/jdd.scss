@@ -1,0 +1,335 @@
+html,body{
+    height: 100%;
+}
+#box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    .top{
+        width: 100%;
+        height: 11.066667rem;
+        position: relative;
+        .t1{
+            height: 1.173333rem;
+            background: url(../images/j.gif) no-repeat, white;
+            background-size: 1.173333rem 1.173333rem;
+            position: relative;
+            h1{
+                font-size: .4rem;
+                line-height: .4rem;
+                line-height: 1.173333rem;
+                position: absolute;
+                top: 0rem;
+                left:4rem;
+            }
+            span{
+                font-size: .933333rem;
+                line-height: 1.173333rem;
+                position: absolute;
+                top: 0;
+                right: .666667rem;
+            }
+        }
+        .t{
+            height: 5.333333rem;
+            background: #fe492e;
+            overflow: hidden;
+            .t2{
+                height: 1.466667rem;
+                margin-top: .4rem;
+                position: relative;
+                background: url(../images/yiyuan.gif) no-repeat;
+                background-size: .8rem .8rem;
+                background-position: 8.666667rem .066667rem;
+                .i1{
+    
+                    width: .32rem;
+                    height: .4rem;
+                    position: absolute;
+                    top: .133333rem;
+                    left:2rem;
+                }
+                input{
+                    width: 8.133333rem;
+                    height: .8rem;
+                    border-radius: .333333rem;
+                    margin-left: .266667rem;
+                    text-align: center;
+                }
+            }
+            .t3{
+                height: .933333rem;
+                .t3l{
+                    width: 1.6rem;
+                    height: .933333rem;
+                    float: left;
+                    h6{
+                        font-size: .48rem;
+                        line-height: .933333rem;
+                        text-align: center;
+                        color: #fff;
+                    }
+                }
+                .t3r{
+                    height: .933333rem;
+                    width: calc(100% -  1.6rem);
+                    float: left;
+                    overflow: auto;
+                    .t3ru{
+                        display: flex;
+                        overflow: auto;
+                        li{
+                            width: 1.333333rem;
+                            line-height: .933333rem;
+                            text-align: center;
+                            font-size: .4rem;
+                            flex-shrink: 0;
+                            a{
+                                
+                                display: block;
+                                color: #f1dbde;
+                            }
+                        }
+                    }
+                }
+            }
+           
+        }
+        .t4{
+            width: 9.2rem;
+            height: 2.666667rem;
+            margin: .4rem auto;
+            border-radius: .333333rem;
+            background: url(../images/banner.webp) no-repeat;
+            background-size: 9.2rem 2.666667rem;
+            background-position: center center;
+            position: absolute;
+            top: 4rem;
+            left: .4rem;
+        }
+        .t5{
+            height: 4rem;
+            padding: .266667rem .4rem;
+            box-sizing: border-box;
+            margin-top: .666667rem;
+            background:white;
+            .t5u{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    width: 1.8rem;
+                    height: 1.866667rem;
+                    text-align: center;
+                    a{
+                        color: black;
+                        img{
+                            width: 1.066667rem;
+                            height: 1.066667rem;
+                        }
+                        p{
+                            font-size: .32rem;
+                            line-height: .32rem;
+                            margin-top: .133333rem;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+    .main{
+        flex: 1;
+        .m1{
+            height: 6rem;
+            padding: .4rem;
+            box-sizing: border-box;
+            background: white;
+            .m1a{
+                height: 1.333333rem;
+                h2{
+                    display: inline-block;
+                    font-size: .48rem;
+                    line-height: 1.333333rem;
+                    font-weight: bold;
+                    .hs1{
+                        color: red;
+                    } 
+                }
+                p{
+                    display: inline-block;
+                    width: 3.093333rem;
+                    height: .466667rem;
+                    border: .013333rem solid red;
+                    border-radius: .266667rem .333333rem .333333rem 0rem;
+                    margin-left: .266667rem; 
+                    .ip{
+                        width: 1.733333rem;
+                        height: .4rem;
+                        line-height:  .4rem;
+                        text-align: center;
+                        color: red;
+                        display: inline-block;
+                        background: #fff;
+                        border-radius: .266667rem 0rem 0rem 0rem;
+                    }
+                    .ip1{
+                        width: 1.333333rem;
+                        height:  .4rem;
+                        line-height:  .4rem;
+                        text-align: center;
+                        color: #fff;
+                        background: red;
+                        display: inline-block;
+                        margin-left: -0.12rem;
+                        border-radius: 0rem .333333rem .333333rem 0rem;
+                    }
+                }
+                a{
+                    font-size: .346667rem;
+                    line-height: 1.333333rem;
+                    color: #ccc;
+                    float: right;
+                }
+            }
+            .m1b{
+                height: 4.8rem;
+                
+                .m1bu{
+                    height: 4.8rem;
+                    display: flex;
+                    flex-shrink: 0;
+                    overflow: auto;
+                    li{
+                        width: 2.933333rem;
+                        height: 4.266667rem;
+                        margin-right: .133333rem;
+                        a{
+                            color: black;
+                            text-align: center;
+                            img{
+                                width: 2.933333rem;
+                                height: 2.933333rem;
+                            }
+                            .p1{
+                                margin-top: .133333rem;
+                                color: red;
+                                .psd{
+                                    font-size: .32rem;
+                                    line-height: .32rem;
+                                }
+                                .psd1{
+                                    font-size: .4rem;
+                                    line-height: .4rem;
+                                }
+                            }
+                            .p2{
+                                font-size: .32rem;
+                                line-height: .32rem;
+                                margin-top: .133333rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .m2{
+            background: #f7f7f7;
+            .m2t{
+                height: 1.333333rem;
+                text-align: center;
+                img{
+                    width: 1.6rem;
+                    height: .666667rem;
+                }
+                span{
+                    font-size: .506667rem;
+                    line-height: 1.333333rem;
+                }
+            }
+            .m2f{
+                .m2fu{
+                    padding: .4rem;
+                    column-count: 2;
+                    break-inside: avoid;
+                    li{
+                        width: 4.466667rem;
+                        background: white;
+                        margin-bottom: .4rem;
+                        border-radius: .333333rem;
+                        a{
+                            display: block;
+                            color: black;
+                            img{
+                                width: 4.466667rem;
+                                height: 4.533333rem;
+                                border-radius: .333333rem .333333rem 0rem 0rem;
+                            }
+                            .lg{
+                                width: 4.466667rem;
+                                height: 7.253333rem;
+                            }
+                        }
+                        .m2fd{
+                            padding: .266667rem;
+                            .m2p{
+                                font-size: .4rem;
+                                line-height: .4rem;
+                            }
+                            .m2p1{
+                                margin-top: .133333rem;
+                                .ss{
+                                    font-size: .346667rem;
+                                    line-height: .346667rem;
+                                    color: red;
+                                }
+                                .ss1{
+                                    margin-left: .133333rem;
+                                    font-size: .4rem;
+                                    line-height: .4rem;
+                                    color: red;
+                                }
+                            }
+                            .m2p2{
+                                margin-top: .133333rem;
+                                font-size: .346667rem;
+                                line-height: .346667rem;
+                                color:#ccc;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .foot{
+        width: 100%;
+        height: 1.333333rem;
+        background: white;
+        .fu{
+            height: 1.333333rem;
+            display: flex;
+            li{
+                flex: 1;
+                height: 1.333333rem;
+                text-align: center;
+                a{
+                    display: block;
+                    
+                    img{
+                        margin-top: .133333rem;
+                        width: .533333rem;
+                        height: .533333rem;
+                    }
+                    .fp{
+                        font-size: .293333rem;
+                        color: #ccc;
+                        margin-top: .133333rem;
+                    }
+                }
+            }
+        }
+    }
+}

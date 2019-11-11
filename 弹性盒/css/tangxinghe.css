@@ -1,0 +1,270 @@
+html,body{
+    height: 100%;
+}
+#box{
+    height: 100%;
+}
+.content{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+#box .nav{
+    width: 100%;
+    height: 312px;
+    background: url(../images/bg.png) no-repeat center center;
+    background-size: 100% 312px;
+}
+#box .nav h2{
+    text-align: center;
+    font-size: 34px;
+    position: absolute;
+    top: 54px;
+    left: 520px;
+}
+#box .nav .n{
+    width: 1200px;
+    height: 250px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    box-shadow: 0px 7px 20px 0px #ccc;
+    background: white;
+}
+#box .nav .n ul{
+    width: 1200px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#box .nav .n ul li{
+    width: 130px;
+    height: 250px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#box .nav .n ul li a{
+    color: black;
+}
+#box .nav .n ul li .imgd{
+    text-align: center;
+}
+#box .nav .n ul li .img1{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+#box .nav .n ul li .img2{
+    width: 35px;
+    height: 35px;
+    display: none;
+}
+#box .nav .n ul li:hover .img1{
+    display: none;
+}
+#box .nav .n ul li:hover .img2{
+    padding: 30px;
+    display: block;
+}
+#box .nav .n ul li:hover .imgd{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #f83146;
+}
+#box .nav .n ul li .ppp{
+    text-align: center;
+    margin-top: 20px;
+}
+#box .nav .n ul li .pppp{
+    display: none;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
+#box .nav .n ul li:hover .pppp{
+   display: block;
+   color: #ccc;
+}
+
+
+
+#box .main{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+#box .main h2{
+    text-align: center;
+    font-size: 34px;
+    position: absolute;
+    top: 140px;
+    left: 520px; 
+}
+#box .main .mu{
+    width: 1200px;
+    height: 276px;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+#box .main .mau{
+    width: 1200px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+#box .main .mau li{
+    width: 224px;
+    height: 220px;
+    position: relative;
+    box-shadow: 0px 10px 20px 0px #ccc;
+}
+#box .main .mau li .ld{
+    padding: 20px 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 20px;
+}
+#box .main .mau li:hover{
+    opacity: 0.8;
+}
+#box .main .mau li a{
+    display: block;
+    color: black;
+}
+#box .main .mau li .c{
+    display: none;
+    width: 56px;
+    height: 56px;
+    font-size: 26px;
+    color: white;
+    line-height: 56px;
+    text-align: center;
+    background: #f83146;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -28px;
+    left: 84px;
+}
+#box .main .mau li:hover .c{
+    display: block;
+}
+#box .main .gps{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+#box .up{
+    width: 100%;
+    height: 680px;
+    position: relative;
+}
+#box .up .h{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+#box .up .h h2{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#box .up .h .dd{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+#box .up .h .dd .duu{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#box .up .h .dd .duu li{
+    float: left;
+    width: 80px;
+    text-align: center;
+}
+#box .up .h .dd .duu li a{
+    color: black;
+}
+#box .up .h .dd .duu li a:hover{
+    text-decoration: underline;
+}
+
+
+
+#box .up .dt{
+    height: 380px;
+}
+#box .up .dt .dtu{
+    display: flex;
+    height: 285px;
+    justify-content: space-between;
+}
+#box .up .dt .dtu li{
+    height: 285px;
+    width: 285px;
+    position: relative;
+}
+#box .up .dt .dtu li a{
+    display: block;
+}
+#box .up .dt .dtu li:hover{
+    opacity: 0.8;
+}
+#box .up .dt .dtu li .dtl{
+    width: 255px;
+    height: 110px;
+    position: absolute;
+    left: 16px;
+    bottom: -60px;
+    box-shadow: 0px 10px 40px 0px #ccc;
+    background: white;
+}
+#box .up .dt .dtu li .dtl h4{
+    font-size: 24px;
+    line-height: 24px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+#box .up .dt .dtu li .dtl p{
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+#box .up .f{
+    width: 160px;
+    height: 48px;
+    position: absolute;
+    left: 520px; 
+    bottom: 40px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 25px;
+    box-shadow: 0px 16px 24px 0px #f83146;
+    background: #f83146;
+}
+#box .up .f a{
+    display: block;
+    color: white;
+}
+#box .up .f a:hover{
+    width: 160px;
+    height: 48px;
+    border-radius: 25px;
+    background: rgba(247, 246, 245, 0.062);
+}
